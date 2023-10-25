@@ -1,0 +1,7 @@
+{
+  "name": "playtomic-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
