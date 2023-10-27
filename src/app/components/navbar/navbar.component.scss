@@ -1,0 +1,10 @@
+ion-tab-bar {
+  --background: #fff;
+  padding: 10px 0px;
+  ion-tab-button {
+    color: #cecece;
+    &.tab-selected {
+      color: var(--primary-color);
+    }
+  }
+}

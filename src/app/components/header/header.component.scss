@@ -1,0 +1,40 @@
+.header-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  .header-logo {
+    display: flex;
+    align-items: center;
+
+    ion-icon {
+      margin-right: 10px;
+    }
+
+    span {
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 600;
+    }
+  }
+
+  .header-controls {
+    ion-icon {
+      &:first-child {
+        margin-right: 15px;
+      }
+    }
+  }
+}
+
+ion-toolbar,
+ion-header {
+  --background: white;
+  --opacity: 1;
+  box-shadow: none;
+}
+
+ion-icon {
+  width: 24px;
+  height: 24px;
+}
