@@ -18,11 +18,24 @@ const routes: Routes = [
         loadChildren: () =>
           import('./home/home.module').then((m) => m.HomePageModule),
       },
-
       {
         path: 'profile',
         loadChildren: () =>
           import('./profile/profile.module').then((m) => m.ProfilePageModule),
+      },
+      {
+        path: 'discovery',
+        loadChildren: () =>
+          import('./discovery/discovery.module').then(
+            (m) => m.DiscoveryPageModule
+          ),
+      },
+      {
+        path: 'community',
+        loadChildren: () =>
+          import('./community/community.module').then(
+            (m) => m.CommunityPageModule
+          ),
       },
     ],
   },

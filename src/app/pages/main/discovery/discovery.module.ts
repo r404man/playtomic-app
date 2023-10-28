@@ -1,12 +1,12 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { HomePageRoutingModule } from './home-routing.module';
+import { DiscoveryPageRoutingModule } from './discovery-routing.module';
 
-import { HomePage } from './home.page';
+import { DiscoveryPage } from './discovery.page';
 import { NewsListComponent } from 'src/app/components/news-list/news-list.component';
 
 @NgModule({
@@ -14,9 +14,9 @@ import { NewsListComponent } from 'src/app/components/news-list/news-list.compon
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule,
+    DiscoveryPageRoutingModule,
     NewsListComponent,
   ],
-  declarations: [HomePage],
+  declarations: [DiscoveryPage],
 })
-export class HomePageModule {}
+export class DiscoveryPageModule {}

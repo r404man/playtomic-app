@@ -1,12 +1,12 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { ProfilePage } from './profile.page';
+import { CommunityPage } from './community.page';
 
-describe('ProfilePage', () => {
-  let component: ProfilePage;
-  let fixture: ComponentFixture<ProfilePage>;
+describe('CommunityPage', () => {
+  let component: CommunityPage;
+  let fixture: ComponentFixture<CommunityPage>;
 
   beforeEach(waitForAsync(() => {
-    fixture = TestBed.createComponent(ProfilePage);
+    fixture = TestBed.createComponent(CommunityPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

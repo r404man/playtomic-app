@@ -1,3 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button title=""></ion-back-button>
+    </ion-buttons>
+    <ion-title> Registration </ion-title>
+  </ion-toolbar>
+</ion-header>
+
 <ion-content [fullscreen]="true">
   <div class="flex-center">
     <ion-card>
@@ -30,7 +39,9 @@
             type="password"
           ></ion-input>
         </ion-item>
-        <ion-button color="dark" size="full"> Register </ion-button>
+        <ion-button color="dark" size="full" (click)="register()">
+          Register
+        </ion-button>
       </ion-card-content>
     </ion-card>
   </div>

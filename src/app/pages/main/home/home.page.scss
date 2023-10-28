@@ -2,11 +2,9 @@ ion-content {
   --offset-top: -55px !important;
 }
 
-ion-list {
-  ion-list-header {
-    font-size: 16px;
-    font-weight: 600;
-  }
+ion-list-header {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 ion-card {
@@ -83,81 +81,6 @@ ion-card {
       --background: var(--primary-color);
     }
   }
-
-  &.tutorial-card {
-    position: relative;
-    height: 100%;
-
-    ion-icon {
-      width: 20px;
-      height: 20px;
-
-      color: #fff;
-      position: absolute;
-      right: 10px;
-      bottom: 10px;
-    }
-
-    ion-card-title {
-      color: #fff;
-    }
-
-    img {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-}
-
-.tutorial-row {
-  height: 250px;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-
-  ion-card {
-    &::after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #000;
-      opacity: 0.5;
-    }
-
-    ion-card-header,
-    ion-icon {
-      z-index: 1;
-    }
-  }
-
-  ion-col {
-    flex: 0 0 auto;
-    width: 180px;
-
-    &.tutorial-double-col {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      ion-card {
-        height: 48%;
-      }
-    }
-  }
-}
-
-.tutorial-list {
-  padding-bottom: 30px;
 }
 
 .remember-card {
@@ -183,16 +106,17 @@ ion-card {
   }
 
   .remember-card-info {
+    margin: 0px 10px;
+
     ion-card-title {
       font-weight: 500;
       margin-bottom: 5px;
     }
 
     ion-card-subtitle {
-      font-weight: 500;
+      font-weight: 400;
       margin-bottom: 0px;
       text-transform: unset;
-      letter-spacing: 0.5px;
     }
   }
 }
