@@ -1,6 +1,7 @@
 .page-title {
   font-weight: 600;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 .page-header {
@@ -23,10 +24,6 @@
   font-size: 12px;
   margin: 15px;
   color: var(--secondary-color);
-}
-
-ion-content {
-  --offset-top: -55px !important;
 }
 
 ion-label {

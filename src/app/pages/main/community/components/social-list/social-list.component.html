@@ -1,0 +1,24 @@
+<ion-row>
+  <ion-col>
+    <ion-card class="add-card">
+      <ion-icon name="add-outline"></ion-icon>
+
+      <ion-card-content> Add friends from your address book </ion-card-content>
+    </ion-card>
+  </ion-col>
+
+  <ion-col *ngFor="let item of [1, 2, 3, 4, 5, 6, 8]">
+    <ion-card>
+      <img src="/assets/card-icons/card-1.jpg" alt="" />
+
+      <ion-icon class="cross" name="close-outline"></ion-icon>
+
+      <ion-card-header>
+        <ion-label> Adidas </ion-label>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-button> Follow </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+</ion-row>

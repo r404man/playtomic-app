@@ -1,13 +1,13 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>community</ion-title>
-  </ion-toolbar>
+  <ion-toolbar> </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">community</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-item lines="none" class="page-header">
+    <ion-label> Suggested for you </ion-label>
+    <ion-button fill="clear"> Check all </ion-button>
+  </ion-item>
+
+  <app-social-list></app-social-list>
+  <app-post-list></app-post-list>
 </ion-content>
